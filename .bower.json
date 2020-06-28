@@ -1,0 +1,13 @@
+{
+  "name": "lib",
+  "homepage": "https://github.com/VNISTResearch/qlcv-template",
+  "_release": "9af249cdea",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "9af249cdea75e9b9bcd98fe79c2d6276e21aaa04"
+  },
+  "_source": "https://github.com/VNISTResearch/qlcv-template.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/VNISTResearch/qlcv-template.git"
+}

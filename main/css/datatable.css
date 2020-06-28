@@ -1,0 +1,148 @@
+/* pagination table */
+.pagination-new {
+    padding-left: 63%;
+    padding-top: 5px;
+    text-align: center;
+}
+#search-page {
+    z-index: 1000;
+    position: absolute;
+    right: 59px;
+    width: 8%;
+    background-color: rgb(249, 250, 252);
+    padding: 15px;
+    border: 1px solid black;
+    margin-top: 6px;
+}
+/* resize column table */
+table thead tr th.resizing {
+    background-color: #d7d6ee;
+}
+
+table thead tr th:not(:last-child) {
+    cursor: ew-resize;
+}
+
+th {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+td {
+    word-wrap: break-word;
+}
+
+.task-table td:not(:last-child) {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+tbody#actions td:not(:last-child) {
+    cursor: move;
+}
+/* item in control table */
+.icon-search {
+    padding: 10px;
+    background: silver;
+    min-width: 50px;
+    text-align: center;
+}
+
+.item-container {
+    display: flex;
+    margin-bottom: 15px;
+}
+.item-container label {
+    width: 30%;
+    margin-top: 6px;
+}
+.item-container input.form-control {
+    display: inline;
+    width: 75%;
+}
+/* .item-container .btn-group {
+    margin-left: -8%;
+} */
+.multiselect-container {
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.multiselect-container .input-group {
+    margin: 5px;
+}
+
+.multiselect-container li {
+    padding: 0;
+}
+
+.multiselect-all label {
+    font-weight: 700;
+}
+
+.multiselect-container li a {
+    padding: 0;
+}
+
+.multiselect-container li a label {
+    margin: 0;
+    height: 100%;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 3px 20px 3px 40px;
+}
+
+.multiselect-container li a label input[type=checkbox] {
+    margin-bottom: 5px;
+}
+
+.multiselect-container li a label.radio {
+    margin: 0;
+}
+
+.multiselect-container li a label.checkbox {
+    margin: 0;
+}
+
+.multiselect-container li.multiselect-group label {
+    margin: 0;
+    padding: 3px 20px 3px 20px;
+    height: 100%;
+    font-weight: 700;
+}
+
+.multiselect-container li.multiselect-group-clickable label {
+    cursor: pointer;
+}
+
+.action-template {
+    z-index: 1000;
+    position: absolute;
+    right: 46px;
+    background-color: snow;
+    height: fit-content;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.action-template a:hover {
+    background-color: beige;
+}
+#action-tasktemplate {
+    border: none;
+    background: none;
+}
+
+
+
+.R10 {
+    right: 33px!important;
+}
+
+.table-hover tbody tr:hover{
+    background-color: #d7d6ee;
+}
